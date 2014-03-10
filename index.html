@@ -1,0 +1,12 @@
+---
+layout: default
+title: Frank Lucht
+---
+
+{% for post in paginator.posts %}
+    {% if forloop.index == 1 and paginator.page == 1%}
+        {% include post.html %}
+    {% else %}
+        {% include post_teaser.html %}
+    {% endif %}
+{% endfor %}

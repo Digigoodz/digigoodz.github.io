@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, maximum-scale=1.0"/>
+    <meta name="description" content="PHP Freelance Backend Development">
+    <meta name="author" content="Frank Lucht">
+
+    <link href="/assets/css/bootstrap.css" rel="stylesheet">
+    <link href="/assets/css/custom.css" rel="stylesheet">
+    <link href="/assets/css/syntax.css" rel="stylesheet">
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link rel="shortcut icon" href="assets/ico/digi.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="/assets/ico/apple-touch-icon-57-precomposed.png">
+</head>
+
+<body>
+
+<div id="wrap">
+    {% include navbar.html %}
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8">
+                {{ content }}
+            </div>
+            <div class="col-lg-4">
+                {% include otherweb.html %}
+                <br />
+                {% include tagcloud.html %}
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer id="footer">
+    <div class="container" style="text-align:center">
+        <p class="copyright" style="margin-top:8px">&copy; 2013 - 2014 Frank Lucht, <a target="_blank" href="http://www.digigoodz.de">Digigoodz</a><br/>
+            Powered by <a target="_blank" href="http://jekyllrb.com/">Jekyll</a> and <a target="_blank" href="http://getbootstrap.com/">Bootstrap</a></p>
+    </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery.js"></script>
+<script src="/assets/js/bootstrap.min.js"></script>
+
+</body>
+</html>

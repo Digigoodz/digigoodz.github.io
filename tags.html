@@ -1,0 +1,28 @@
+---
+layout: default
+title: Tags
+---
+<div class="tags">
+    <div class="text-center">
+    {% for tagStruct in site.tags %}
+        {% assign theTag = (tagStruct | first) %}
+            <a style="font-weight: bold" href="#tag-{{ theTag }}">{{ theTag }}</a> |
+    {% endfor%}
+    </div>
+
+    {% for tagStruct in site.tags %}
+     {% assign theTag = (tagStruct | first) %}
+        <div>
+            <a id="tag-{{ theTag }}"></a>
+            <h4 style="border-bottom: 1px solid lightslategrey">{{ theTag }} ({{ tagStruct | last | size }})</h4>
+        {% for post in site.posts %}
+            {% if post.tags contains theTag %}
+                <span style="margin-left:25px">
+                    <b style="color: #b3b3b3">{{ post.date | date: "%d.%m.%Y" }}</b> : <a href="{{ post.id }}">{{ post.title }}</a><br />
+                </span>
+            {% endif %}
+        {% endfor %}
+        </div>
+        <br />
+    {% endfor%}
+</div>

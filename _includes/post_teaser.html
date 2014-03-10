@@ -1,0 +1,8 @@
+<div class="post">
+    <h4 class="post-heading"><a href="{{ post.url }}">{{post.title}}</a></h4>
+    <div class="post-author-line"><i>{{post.date  | date: "%d.%m.%Y" }}</i>, {{site.author.name}}</div>
+    <article>
+            {{ post.excerpt }}
+            <a href="{{ post.url }}">weiterlesen >></a>
+    </article>
+</div>

@@ -1,0 +1,19 @@
+<div id="tag-cloud">
+    <div style="text-align: center">
+        <h4>Tags</h4>
+    </div>
+    <div class="tag-cloud" style="padding: 2px; text-align: center;">
+    {% for tagStruct in site.tags %}
+        {% assign theTag = (tagStruct | first) %}
+        {% assign tagCount = (tagStruct | last | size) %}
+        {% assign tagSize = (tagCount | divided_by: 1.0 | divided_by: site.tags.size) | plus: 1.0 %}
+        {% assign defFontSize = 12 %}
+        {% assign fontSize = tagSize %}
+        {% assign fontSize = defFontSize | times: tagSize  %}
+        {% if fontSize < defFontSize %}
+            {% assign fontSize = defFontSize %}
+        {% endif %}
+           <a href="/tags.html#tag-{{theTag}}"><li style="display: inline;font-size: {{ fontSize}}px">&nbsp;{{theTag}}&nbsp;</li></a>
+        {% endfor%}
+    </div>
+</div>

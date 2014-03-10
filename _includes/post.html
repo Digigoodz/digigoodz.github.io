@@ -1,0 +1,9 @@
+<div class="post">
+    <h3 class="post-heading"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+    <div class="post-author-line"><i>{{post.date  | date: "%d.%m.%Y" }}</i>, {{site.author.name}}</div>
+    <article>
+        <section>
+        {{post.content}}
+        </section>
+    </article>
+</div>

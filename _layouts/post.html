@@ -1,0 +1,12 @@
+---
+layout: default
+---
+<article class="post">
+    <header>
+        <h3 class="post-heading"><a href="{{ post.url }}">{{ page.title }}</a></h3>
+        <div class="post-author-line"><i>{{ page.date  | date_to_long_string }}</i>, {{site.author.name}}</div>
+    </header>
+    <section>
+        {{content}}
+    </section>
+</article>

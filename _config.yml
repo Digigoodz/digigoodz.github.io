@@ -1,0 +1,23 @@
+permalink: /:categories/:year/:month/:day/:title 
+
+blog:
+  title: Frank Lucht
+  subtitle: PHP, Unit Testing, Softwareentwicklung
+
+author:
+  name: Frank Lucht
+  email: mail@digigoodz.de
+  
+paginate: 3
+
+pygments: true
+markdown: redcarpet
+
+timezone: Europe/Berlin
+encoding: UTF-8
+excerpt: ""
+
+safe: true
+lsi: false
+
+baseurl: /
