@@ -50,13 +50,16 @@ code {
     background-color: #fff;
 }
 
+.pager a,
+.pagination a,
 .post a,
 div.books a,
 .tags a, .tag-cloud a,
 .archive a,
 footer a,
 #imprint a,
-#reference a {
+#reference a,
+#pagination-page {
     color: darkgreen;
     font-weight: bold;
 }
