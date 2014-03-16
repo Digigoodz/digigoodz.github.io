@@ -8,7 +8,7 @@ author:
   name: Frank Lucht
   email: mail@digigoodz.de
   
-paginate: 3
+paginate: 5
 
 pygments: true
 markdown: redcarpet
