@@ -10,3 +10,21 @@ title: Frank Lucht
         {% include post_teaser.html %}
     {% endif %}
 {% endfor %}
+
+{% if paginator.total_pages > 1 %}
+<div class="text-center">
+    <ul class="pagination">
+        {% if paginator.previous_page %}
+        <li><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo;</a></li>
+        {% else %}
+        <li><span>&laquo;</span></li>
+        {% endif %}
+        <li><span id="pagination-page">{{paginator.page}}/{{paginator.total_pages}}</span></li>
+        {% if paginator.next_page %}
+        <li><a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">&raquo;</a></li>
+        {% else %}
+        <li><span>&raquo;</span></li>
+        {% endif %}
+    </ul>
+</div>
+{% endif %}
