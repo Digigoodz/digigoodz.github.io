@@ -9,7 +9,7 @@ excerpt: Es gibt viele Blogs über TDD und Unit Testing. Welche Vorteile es mit 
          zu sein.
 ---
 Es gibt viele Blogs über <span class="info" title="Test Driven Development">TDD<sup>?</sup></span> und Unit Testing. Welche Vorteile es mit sich bringt, welche Nachteile es mit sich
-bringt, warum man es machen sollte, oder warum auch nicht.
+bringt, warum man es machen sollte oder warum auch nicht.
 
 Die Entwickler(innen) die ihre Projekte per TDD entwickeln oder Unit Testing praktizieren scheinen immer noch eine Minderheit
 zu sein. So schien es mir wenigstens auf der <a href="http://phpconference.com">IPC, Berlin</a> im Juni 2013 oder bei der <a href="http://europe.zendcon.com/">ZendCon Europe, Paris</a> im November 2013.
@@ -32,7 +32,7 @@ Aber irgendwann fängt es an. Ein schleichender Prozess dessen Auswirkungen sich
 verwaltbar ist. Je mehr Projekte erledigt wurden und je umfangreicher die Projekte wurden, umso mehr Wartung, Pflege und
 Erweiterungen kamen. Hier mal schnell was erweitert, dort mal was reingehackt - teilweise direkt am offenen Herzen.
 
-Die Anzahl der Bälle die gleichzeitig in der Luft gehalten werden mußten wurde irgendwann absurd.
+Die Anzahl der Bälle die gleichzeitig in der Luft gehalten werden mussten wurde irgendwann absurd.
 
 Die Code Basis wurde langsam aber sicher immer schlimmer. Die Tage wurden länger, die Zeit ein neues Feature zu implementieren
 wurde länger - teilweise sogar unmöglich. Ein gefixter Bug hatte auch schon mal neue Fehler zur folge, weil auf dem Fehler Features
@@ -85,7 +85,7 @@ Ein paar der Aussagen - ob nun Management/Business oder Entwickler - auf die man
 Die Fragen und die Aussagen sind durchaus gerechtfertigt. Wie geht man damit um?
 
 Man kann versuchen sich den Mund fusselig zu reden, Studien zu präsentieren, auf die Geschichte in der Softwareentwicklung
-verweisen. Das kann funktionieren - je nachdem wer einem gegenüber sitzt - muß aber nicht.
+verweisen. Das kann funktionieren - je nachdem wer einem gegenüber sitzt - muss aber nicht.
 
 Und nun?
 
@@ -121,8 +121,8 @@ Aber eine weitere wichtige Frage die nicht gestellt wurde: __Kann man die Defekt
 
 Dazu ein paar Zahlen:
 
-- ~3.2 kLOC Business Code (mitlerweile ~5.3kLOC)
-- ~3.2 kLOC Test Code (mitlerweile ~4.8kLOC)
+- ~3.2 kLOC Business Code (mittlerweile ~5.3kLOC)
+- ~3.2 kLOC Test Code (mittlerweile ~4.8kLOC)
 - __Bugs__ die in der Entwicklung aufgetreten sind: __6__
 - __Minor Bugs__ im Betrieb während der ersten 18 Monate: __&lt;5__
 - __Major Bugs__ im Betrieb während der ersten 18 Monate: __0__
@@ -136,7 +136,7 @@ Das ist ein mehr als hervorragendes Ergebnis für das allererste Projekt das wir
 Auch wenn die Tests im Rückblick noch nicht die Besten waren, waren sie so gut ein Projekt dieser Qualität auf die Beine zu stellen.
 
 Auf Basis dieses _"Experiments"_ wurden alle weiteren neuen Projekte nur noch mit Unit Tests implementiert. Die hohe Qualität
-der Software hat nicht nur Einfluß auf den Stresslevel. Wartung, Betrieb und Erweiterbarkeit der Software gestaltet sich
+der Software hat nicht nur Einfluss auf den Stresslevel. Wartung, Betrieb und Erweiterbarkeit der Software gestaltet sich
 wesentlich einfacher und sicherer.
 
 Eine niedrige Defektrate bedeutet gleichzeitig auch einen monetären Gewinn. Weniger Fehler, die zusätzlich noch leichter
