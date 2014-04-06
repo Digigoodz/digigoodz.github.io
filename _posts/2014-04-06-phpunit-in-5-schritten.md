@@ -227,7 +227,7 @@ Es ist durchaus mit einem gewissen Aufwand verbunden wenn man, wie wir, bei Null
 
 Bei den nächsten Schritten hat man schon die notwendigen Dateien parat um sie wiederzuverwenden und den neuen Gegebenheiten anzupassen.
 
-Wer sich die Tipparbeit sparen will, kann sich das vollständige Projekt von Github clonen:
+Wer sich die Tipparbeit sparen will, kann sich das vollständige Projekt von Github clonen: [https://github.com/Digigoodz/phpunit-quickstart](https://github.com/Digigoodz/phpunit-quickstart)
 
 ```
 $ git clone https://github.com/Digigoodz/phpunit-quickstart .
