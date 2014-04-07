@@ -55,8 +55,8 @@ Damit hätten wir dann schon alles zusammen was wir brauchen um PHPUnit zu nutze
 Unser `composer.json` File fällt detaillierter aus um folgendes zu erreichen:
 
 * prüfen ob unsere PHP Version mindestens 5.3 oder größer ist (Namespaces)
-* installiert PHPUnit
-* erzeugt uns ein `bin` Verzeichnis von wo aus `phpunit` ausgeführt werden kann
+* installiert PHPUnit (in unserer Dev-Umgebung)
+* erzeugt uns ein `bin` Verzeichnis mit einem symbolischen Link auf den `phpunit` command-line runner
 * erzeugt die composer Autoloader Konfiguration für den _Tutorial Namespace_
 
 {% highlight json %}
@@ -100,7 +100,7 @@ $ php composer.phar install
 Es dauert einen Augenblick alle Pakete herunterzuladen und wenn alles funktioniert hat sieht das Verzeichnis so aus:
 
 ```
-$ ll
+$ ls -l
 bin/
 composer.json
 composer.lock
