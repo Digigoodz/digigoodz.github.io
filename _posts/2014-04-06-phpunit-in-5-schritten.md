@@ -2,15 +2,12 @@
 layout: post
 title: PHPUnit in 5 Schritten
 tags: php phpunit tutorial
-excerpt: "In diesem Tutorial zeige ich wie man von Null beginnt um ins Unit Testing einzusteigen.
-
-Am Ende dieses Projektes steht zwar nur ein sehr simpler Unit Test, aber das wichtigste an diesem Tutorial ist der Weg dorthin."
 
 ---
 In diesem Tutorial zeige ich wie man von Null beginnt um ins Unit Testing einzusteigen.
 
 Am Ende dieses Projektes steht zwar nur ein sehr simpler Unit Test, aber das wichtigste an diesem Tutorial ist der Weg dorthin.
-
+<!-- ex -->
 
 #### Schritt 1, composer
 Im ersten Schritt werden wir <a href="http://getcomposer.org" target="_blank">composer</a> installieren und eine entsprechende Konfigurationsdatei `composer.json` erstellen.
