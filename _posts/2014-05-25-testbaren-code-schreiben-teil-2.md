@@ -2,13 +2,12 @@
 layout: post
 title: Testbaren Code schreiben (Teil 2)
 tags: testing php phpunit
-
 ---
 
-Im Post [Testbaren Code schreiben]({% post_url 2014-04-21-testbaren-code-schreiben%}) haben wir in ein paar kleinen Schritten einen nicht testbaren Code so modifiziert, dass wir ihn testen können. 
+Im Post [Testbaren Code schreiben]({% post_url 2014-04-21-testbaren-code-schreiben%}) haben wir in ein paar kleinen Schritten einen nicht testbaren Code so modifiziert, dass wir ihn testen können.
 
 Als Basis benutzen wir das Projekt aus [PHPUnit in 5 Schritten]({% post_url 2014-04-6-phpunit-in-5-schritten %}). Der vollständige Quellcode zu diesem Tutorial findet sich auf [github: PhpUnit LegacyCode Tutorial](https://github.com/Digigoodz/phpunit-legacycode-tutorial)
-<!-- ex -->
+
 In das Projekt fügen wir unseren Fake Legacy Code ein den wir als Basis benutzen und Schritt für Schritt, und Test für Test verbessern werden.
 
 ## Dependency Injection und Inversion of Control

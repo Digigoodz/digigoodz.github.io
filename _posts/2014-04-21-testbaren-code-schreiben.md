@@ -5,7 +5,7 @@ tags: testing php phpunit
 ---
 In einem früheren Artikel [TDD oder der Weg ist das Ziel]({% post_url 2014-03-23-tdd-oder-der-weg-ist-das-ziel %}) habe ich die Frage gestellt, woran es liegen könnte dass augenscheinlich so wenig Unit Testing gemacht wird.
 
-Ich habe noch mal selber darüber nachgedacht wie es bei mir war. <!-- ex -->
+Ich habe noch mal selber darüber nachgedacht wie es bei mir war.
 Da gab es einige Punkte, aber der wichtigste:
 
 <p class="personal-info">Ich wußte einfach nicht wirklich wie ich starten soll (mit Legacy-Code), und wie ich Code schreibe der (automatisiert) testbar ist.</p>
