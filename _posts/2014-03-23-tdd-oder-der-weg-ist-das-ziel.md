@@ -2,11 +2,8 @@
 layout: post
 title: TDD oder Der Weg ist das Ziel
 tags: tdd php phpunit
-excerpt: Es gibt viele Blogs über TDD und Unit Testing. Welche Vorteile es mit sich bringt, welche Nachteile es mit sich
-         bringt, warum man es machen sollte, oder warum auch nicht.
-
-         Die Entwickler(innen) die ihre Projekte per TDD entwickeln oder Unit Testing praktizieren scheinen immer noch eine Minderheit
-         zu sein.
+excerpt: "Es gibt viele Blogs über TDD und Unit Testing. Welche Vorteile es mit sich bringt, welche Nachteile es mit sich
+         bringt, warum man es machen sollte, oder warum auch nicht."
 ---
 Es gibt viele Blogs über <span class="info" title="Test Driven Development">TDD<sup>?</sup></span> und Unit Testing. Welche Vorteile es mit sich bringt, welche Nachteile es mit sich
 bringt, warum man es machen sollte oder warum auch nicht.
@@ -22,7 +19,7 @@ Entwickler im täglichen Geschäft zu schaffen machen.
 Ich werde in diesem Post meinen Weg von einem gestressten Entwickler zu einem entspannten und überzeugten TDD und Unit
 Test Evangelisten aufzeigen.
 
-#### Der Anfang
+## Der Anfang
 Ich arbeite seit über 8 Jahren in einem projektgetriebenen Umfeld. Zeit ist Geld, es ist wichtig zu liefern - und das schnell.
 Am Anfang waren die Projekte eher klein und überschaubar. Überwiegend One-Man Shows um möglichst viele Aufträge erledigen zu können.
 
@@ -40,7 +37,7 @@ aufgesetzt wurden - schön ist was anderes.
 
 Ein Faktor der aber noch schwerer wiegt, und den man erst im Rückblick und mit Abstand erkennt: Man verliert Reputation und Vertrauen.
 
-#### Der Wendepunkt
+## Der Wendepunkt
 Irgendwann kommt man an den Punkt, an dem man merkt dass es so nicht weitergehen kann. Man braucht eine Lösung, irgendetwas
 das einem hilft dem Chaos Herr zu werden. Es gibt nicht die "Eine" allumfassende Lösung. Für mich und das Team mit
 dem ich zusammenarbeite wollten wir eine Lösung finden die uns in Zukunft die Arbeit erleichtern sollte.
@@ -50,7 +47,7 @@ Unser Ansatz war: ___Unit Testing und (nach Möglichkeit) Test Driven Developmen
 Wir haben schon längere Zeit mit dieser Option geliebäugelt, aber es gab einige Hindernisse und Probleme die dann doch
 immer dafür gesorgt haben es sein zu lassen. Was das war, und wie es gelöst wurde siehst du etwas weiter unten.
 
-#### Wie fängt man an?
+## Wie fängt man an?
 Aller Anfang ist bekanntlich schwer. Vor allem bei einem Werkzeug von dem man nicht so richtig weiß wie man am Besten anfängt.
 Das Internet ist voller guter und schlechter Beispiele, es gibt Bücher und Leute die sich damit auskennen.
 
@@ -69,7 +66,7 @@ Was es galt festzustellen:
 
 Hatten wir einen Plan B? Nicht wirklich.
 
-#### Der Weg
+## Der Weg
 <blockquote cite="Johann Wolfgang von Goethe"><p>Es ist nicht genug, zu wissen, man muß auch anwenden; es ist nicht genug, zu wollen, man muß auch tun.</p>
 <cite>Johann Wolfgang von Goethe</cite></blockquote>
 
@@ -96,7 +93,7 @@ und da schwierig die Tests zu schreiben und Testdaten zu erzeugen.
 
 Die Tests sind nicht aller erste Sahne, aber sie erfüllen ihren Zweck.
 
-#### Das Ergebnis
+## Das Ergebnis
 Das Resultat war für uns wegweisend - es ist jetzt knapp 2 Jahre her.
 
 Welches Ergebnis haben wir mit dem "Test-Projekt" erzielt?
@@ -130,7 +127,7 @@ Dazu ein paar Zahlen:
 
 Das ist ein mehr als hervorragendes Ergebnis für das allererste Projekt das wir so entwickelt haben.
 
-#### Fazit
+## Fazit
 <blockquote cite="Kent Beck"><p>I'm not a great programmer; I'm just a good programmer with great habits.</p><cite>Kent Beck</cite></blockquote>
 
 Auch wenn die Tests im Rückblick noch nicht die Besten waren, waren sie so gut ein Projekt dieser Qualität auf die Beine zu stellen.
