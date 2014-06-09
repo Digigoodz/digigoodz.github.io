@@ -13,7 +13,10 @@
         {% if fontSize < defFontSize %}
             {% assign fontSize = defFontSize %}
         {% endif %}
+        <!--
            <a href="/tags.html#tag-{{theTag}}"><li style="display: inline;font-size: {{ fontSize}}px">&nbsp;{{theTag}}&nbsp;</li></a>
+        -->
+           <a href="/tags.html#tag-{{theTag}}"><span style="display: inline;font-size: {{ fontSize}}px">&nbsp;{{theTag}}&nbsp;</span></a>
         {% endfor%}
     </div>
 </div>
