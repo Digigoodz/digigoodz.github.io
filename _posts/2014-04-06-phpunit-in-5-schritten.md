@@ -2,14 +2,16 @@
 layout: post
 title: PHPUnit in 5 Schritten
 tags: php phpunit tutorial
+excerpt: "In diesem Tutorial zeige ich wie man von Null beginnt um ins Unit Testing einzusteigen.
 
+Am Ende dieses Projektes steht zwar nur ein sehr simpler Unit Test, aber das wichtigste an diesem Tutorial ist der Weg dorthin."
 ---
 In diesem Tutorial zeige ich wie man von Null beginnt um ins Unit Testing einzusteigen.
 
 Am Ende dieses Projektes steht zwar nur ein sehr simpler Unit Test, aber das wichtigste an diesem Tutorial ist der Weg dorthin.
-<!-- ex -->
 
-#### Schritt 1, composer
+
+## Schritt 1, composer
 Im ersten Schritt werden wir <a href="http://getcomposer.org" target="_blank">composer</a> installieren und eine entsprechende Konfigurationsdatei `composer.json` erstellen.
 
 Die Zusammenfassung von der Composer Webseite:
@@ -31,7 +33,7 @@ $ curl -sS https://getcomposer.org/installer | php
 ```
 
 
-#### Schritt 2, composer Konfigurationsfile
+## Schritt 2, composer Konfigurationsfile
 
 Danach erstellen wir uns ein `composer.json` File um PHPUnit zu installieren.  
 Ein absolut minimales File würde so aussehen:
@@ -87,7 +89,7 @@ Unser `composer.json` File fällt detaillierter aus um folgendes zu erreichen:
 
 
 
-#### Schritt 3, composer install
+## Schritt 3, composer install
 Um die Abhängigkeiten zu installieren wird composer jetzt ausgeführt:
 
 ```
@@ -105,7 +107,7 @@ composer.phar
 vendor/
 ```
 
-#### Zwischenstand
+## Zwischenstand
 Wir haben jetzt die Grundlage geschaffen um gleich mit der Konfiguration für das Unit Testing zu beginnen.  
 Wenn wir jetzt PHPUnit einmal ausführen sieht das Ergebnis so aus:
 
@@ -114,7 +116,7 @@ $ bin/phpunit --version
 PHPUnit 3.7.32 by Sebastian Bergmann.
 ```
 
-#### Schritt 4, PHPUnit Setup
+## Schritt 4, PHPUnit Setup
 Als erstes legen wir uns die Verzeichnisse an in denen wir unsere PHPUnit Konfiguration und unsere Unit Tests liegen werden.
 
 
@@ -157,7 +159,7 @@ include __DIR__ . '/../vendor/autoload.php';
 
 Die `bootstrap.php` wird vor Ausführung der Unit Tests aufgerufen um ein paar PHP Settings für das Error Reporting vorzunehmen und um das Autoloading von composer einzubinden.
 
-#### Schritt 5, Der Test
+## Schritt 5, Der Test
 Wir sind jetzt soweit unsere zu testende Klasse und den dazugehörigen Unit Test zu schreiben.
 Wir werden composer für das Autoloading nach [PSR-0](http://www.php-fig.org/psr/psr-0/) nutzen.
 
@@ -219,7 +221,7 @@ Time: 24 ms, Memory: 3.25Mb
 OK (1 test, 1 assertion)
 ```
 
-#### Fazit
+## Fazit
 Es ist durchaus mit einem gewissen Aufwand verbunden wenn man, wie wir, bei Null anfängt. Aber dieser erste initiale Schritt ist unsere Grundlage für weitere Tests und nachfolgende Projekte.
 
 Bei den nächsten Schritten hat man schon die notwendigen Dateien parat um sie wiederzuverwenden und den neuen Gegebenheiten anzupassen.
