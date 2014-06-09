@@ -2,6 +2,7 @@
 layout: post
 title: Testbaren Code schreiben (Teil 2)
 tags: testing php phpunit
+lastmod: 09-06-2014
 ---
 
 Im Post [Testbaren Code schreiben]({% post_url 2014-04-21-testbaren-code-schreiben%}) haben wir in ein paar kleinen Schritten einen nicht testbaren Code so modifiziert, dass wir ihn testen können.

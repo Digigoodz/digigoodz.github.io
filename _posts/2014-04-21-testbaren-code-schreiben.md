@@ -2,6 +2,7 @@
 layout: post
 title: Testbaren Code schreiben
 tags: testing php phpunit
+lastmod: 09-06-2014
 ---
 In einem früheren Artikel [TDD oder der Weg ist das Ziel]({% post_url 2014-03-23-tdd-oder-der-weg-ist-das-ziel %}) habe ich die Frage gestellt, woran es liegen könnte dass augenscheinlich so wenig Unit Testing gemacht wird.
 

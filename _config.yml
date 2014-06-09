@@ -20,4 +20,4 @@ excerpt_separator: "\n\n"
 safe: true
 lsi: false
 
-baseurl: http://digigoodz.github.io/
+baseurl: http://digigoodz.github.io

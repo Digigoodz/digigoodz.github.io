@@ -4,6 +4,7 @@ title: TDD oder Der Weg ist das Ziel
 tags: tdd php phpunit
 excerpt: "Es gibt viele Blogs über TDD und Unit Testing. Welche Vorteile es mit sich bringt, welche Nachteile es mit sich
          bringt, warum man es machen sollte, oder warum auch nicht."
+lastmod: 09-06-2014 
 ---
 Es gibt viele Blogs über <span class="info" title="Test Driven Development">TDD<sup>?</sup></span> und Unit Testing. Welche Vorteile es mit sich bringt, welche Nachteile es mit sich
 bringt, warum man es machen sollte oder warum auch nicht.
