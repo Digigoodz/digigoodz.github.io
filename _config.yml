@@ -15,7 +15,7 @@ markdown: redcarpet
 
 timezone: Europe/Berlin
 encoding: UTF-8
-excerpt_separator: "<!-- ex -->"
+excerpt_separator: "\n\n"
 
 safe: true
 lsi: false
