@@ -2,7 +2,9 @@
 layout: post
 title: Testbaren Code schreiben
 tags: testing php phpunit
-lastmod: 09-06-2014
+lastmod: 13-06-2014
+meta:
+  description: Wie schreibt man testbaren Code? Worauf sollte man achten und wie fängt man an? Das zeige ich anhand eines kleinen Legacy Code Beispielprojektes in PHP mit PHPUnit.
 ---
 In einem früheren Artikel [TDD oder der Weg ist das Ziel]({% post_url 2014-03-23-tdd-oder-der-weg-ist-das-ziel %}) habe ich die Frage gestellt, woran es liegen könnte dass augenscheinlich so wenig Unit Testing gemacht wird.
 

@@ -2,8 +2,10 @@
 layout: post
 title: git SSL Zertifkats Problem
 tags: quicktip git mac
-excerpt: "Vor kurzem hatte ich mit einem nicht unbekanntem Problem beim clonen von     git Projekten zu kämpfen: Das SSL Zertifikat von https://github.com konnte nicht verifiziert werden."
-lastmod: 09-06-2014
+excerpt: "Vor kurzem hatte ich mit einem nicht unbekanntem Problem beim clonen von git Projekten zu kämpfen: Das SSL Zertifikat von https://github.com konnte nicht verifiziert werden."
+lastmod: 13-06-2014
+meta:
+  description: Was machen wenn das git clone wegen eine SSL Zertifikatsproblems nicht mehr funktioniert? Zwei Varianten die das Problem lösen.
 ---
 Vor kurzem hatte ich mit einem nicht unbekanntem Problem beim clonen von git Projekten zu kämpfen: Das SSL Zertifikat von https://github.com konnte nicht verifiziert werden. 
 

@@ -8,6 +8,9 @@
     <meta name="description" content="PHP Freelance Backend Development">
     <meta name="author" content="{{ site.author.name}}">
     <meta name="google-site-verification" content="GPheuuw40ul7DTsBhwnUN9-2gE1CmvgrRrrAqFViAz0" />
+    {% if page.meta.description != null %}
+    <meta name="description" content="{{ page.meta.description }}"/>
+    {% endif %}
 
     <link rel="author" href="https://www.xing.com/profile/Frank_Lucht"/>
     <link href="/assets/css/bootstrap.css" rel="stylesheet">

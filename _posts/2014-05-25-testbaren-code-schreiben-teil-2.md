@@ -2,7 +2,9 @@
 layout: post
 title: Testbaren Code schreiben (Teil 2)
 tags: testing php phpunit
-lastmod: 09-06-2014
+lastmod: 13-06-2014
+meta:
+  description: Im zweiten Teil von 'Testbaren Code schreiben' gibt es eine Schritt für Schritt Anleitung wie Legacy Code testbar gemacht wird. Mit Refactoring, Dependency Injection, Mocks und Stubs zum Ziel.
 ---
 
 Im Post [Testbaren Code schreiben]({% post_url 2014-04-21-testbaren-code-schreiben%}) haben wir in ein paar kleinen Schritten einen nicht testbaren Code so modifiziert, dass wir ihn testen können.
