@@ -1,6 +1,6 @@
 ---
 layout: post
-title: PHPUnit in 5 Schritten
+title: PHPUnit Tutorial in 5 Schritten
 tags: php phpunit tutorial
 excerpt: "In diesem Tutorial zeige ich wie man von Null beginnt um ins Unit Testing einzusteigen.
 
@@ -9,7 +9,7 @@ lastmod: 13-06-2014
 meta:
   description: In diesem Tutorial zeige ich wie man von Null beginnt um mit PHPUnit ins Unit Testing einzusteigen. Das Ergebnis ist ein kleines Beispielprojekt als Basis für andere Projekte.
 ---
-In diesem Tutorial zeige ich wie man von Null beginnt um ins Unit Testing einzusteigen.
+In diesem Tutorial zeige ich wie man von Null beginnt um mit [PHPUnit](http://www.phpunit.de) ins Unit Testing einzusteigen.
 
 Am Ende dieses Projektes steht zwar nur ein sehr simpler Unit Test, aber das wichtigste an diesem Tutorial ist der Weg dorthin.
 
