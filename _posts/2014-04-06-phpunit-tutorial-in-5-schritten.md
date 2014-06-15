@@ -5,7 +5,7 @@ tags: php phpunit tutorial
 excerpt: "In diesem Tutorial zeige ich wie man von Null beginnt um ins Unit Testing einzusteigen.
 
 Am Ende dieses Projektes steht zwar nur ein sehr simpler Unit Test, aber das wichtigste an diesem Tutorial ist der Weg dorthin."
-lastmod: 13-06-2014
+lastmod: 15-06-2014
 meta:
   description: In diesem Tutorial zeige ich wie man von Null beginnt um mit PHPUnit ins Unit Testing einzusteigen. Das Ergebnis ist ein kleines Beispielprojekt als Basis für andere Projekte.
 ---
