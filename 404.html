@@ -1,0 +1,28 @@
+---
+layout: default
+title: Seite nicht gefunden
+meta:
+description: Ein Blog über PHP, Unit Testing mit PHPUnit, TDD und Softwareentwicklung
+---
+<h1>Oops, ich konnte nichts finden.</h1>
+<div>
+    <p>Die gesuchte Seite scheint es nicht mehr zu geben oder der Link ist nicht mehr aktuell.</p>
+    <p>Vielleicht ist hier ein Link dabei:</p>
+</div>
+
+<div class="archive">
+    {% assign year = '' %}
+    {% for post in site.posts %}
+    {% assign postYear = post.date | date: "%Y" %}
+    {% if year != postYear %}
+    <br />
+        <span style="margin-left:25px">
+            <b style="color: #b3b3b3;font-size: larger">{{ post.date | date: "%Y" }}</b><br />
+        </span>
+    {% assign year = postYear %}
+    {% endif %}
+        <span style="margin-left:45px">
+            <b style="color: #b3b3b3">{{ post.date | date: "%d.%m.%Y" }}</b> : <a href="{{ post.id }}">{{ post.title }}</a><br />
+        </span>
+    {% endfor %}
+</div>
