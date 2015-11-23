@@ -10,7 +10,7 @@ author:
   
 paginate: 5
 
-pygments: true
+highlighter: pygments
 markdown: redcarpet
 
 timezone: Europe/Berlin

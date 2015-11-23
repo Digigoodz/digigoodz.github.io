@@ -9,7 +9,7 @@ meta:
 
 Im Post [Testbaren Code schreiben]({% post_url 2014-04-21-testbaren-code-schreiben%}) haben wir in ein paar kleinen Schritten einen nicht testbaren Code so modifiziert, dass wir ihn testen können.
 
-Als Basis benutzen wir das Projekt aus [PHPUnit Tutorial in 5 Schritten]({% post_url 2014-04-6-phpunit-tutorial-in-5-schritten %}). Der vollständige Quellcode zu diesem Tutorial findet sich auf [github: PhpUnit LegacyCode Tutorial](https://github.com/Digigoodz/phpunit-legacycode-tutorial)
+Als Basis benutzen wir das Projekt aus [PHPUnit Tutorial in 5 Schritten]({% post_url 2014-04-06-phpunit-tutorial-in-5-schritten %}). Der vollständige Quellcode zu diesem Tutorial findet sich auf [github: PhpUnit LegacyCode Tutorial](https://github.com/Digigoodz/phpunit-legacycode-tutorial)
 
 In das Projekt fügen wir unseren Fake Legacy Code ein den wir als Basis benutzen und Schritt für Schritt, und Test für Test verbessern werden.
 
